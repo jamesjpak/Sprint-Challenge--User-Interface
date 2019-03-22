@@ -240,6 +240,10 @@ header nav {
     justify-content: space-evenly;
 }
 
+.header-align {
+    display: flex;
+}
+
 footer {
     width: 100%;
     background: black;
