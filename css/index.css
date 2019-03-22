@@ -200,7 +200,7 @@ p {
     justify-content: center;
 }
 
-.middle-content .boxes .box-5 {
+.middle-content .boxes .box-10 {
     width: 12.5%;
     height: 100px;
     background: dodgerblue;
@@ -226,6 +226,20 @@ p {
     padding-right: 0;
 }
 
+header {
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+header nav {
+    margin-top: 40px; 
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
 footer {
     width: 100%;
     background: black;
@@ -244,3 +258,44 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+.organize-row {
+    display: flex;
+  }
+  
+  .infopanels {
+      padding: 20px;
+      border: 1px solid black;
+      width: 600px;
+      background: whitesmoke;
+      margin: 20px;
+  }
+  
+  .infosection h3 {
+    font-size: 22px;
+  }
+  
+  .infosection p {
+    font-size: 14px;
+    font-style: normal;
+  }
+  
+  .infopanels button {
+      padding: 10px 40px;
+      cursor: pointer;
+      background: white;
+      border-radius: 10px;
+      border: 1px solid black;
+  }
+  
+  .infopanels button:hover {
+    background: black;
+      color: white;
+  }
+  
+  .middledividers {
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+  }
+  
