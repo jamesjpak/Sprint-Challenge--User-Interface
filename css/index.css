@@ -244,6 +244,8 @@ header nav {
     display: flex;
 }
 
+
+
 footer {
     width: 100%;
     background: black;
@@ -266,14 +268,26 @@ footer nav a {
 
 .organize-row {
     display: flex;
+    padding: 20px;
   }
   
   .infopanels {
       padding: 20px;
-      border: 1px solid black;
-      width: 600px;
-      background: whitesmoke;
-      margin: 20px;
+      width: 450px;
+      margin: 40px;
+  }
+
+.bottom-info {
+    padding: 40px;
+}
+
+.infosection {
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+  .infosection h2 {
+      margin-top: 20px;
   }
   
   .infosection h3 {
@@ -303,3 +317,8 @@ footer nav a {
     border-bottom: 1px dashed black;
   }
   
+  .topjumboimage {
+      padding: 20x;
+      display: flex;
+      flex-wrap: wrap;
+  }
