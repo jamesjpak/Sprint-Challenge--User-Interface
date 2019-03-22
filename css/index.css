@@ -238,6 +238,7 @@ header nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .header-align {
@@ -268,13 +269,14 @@ footer nav a {
 
 .organize-row {
     display: flex;
+    align-items: center;
     padding: 20px;
   }
   
   .infopanels {
-      padding: 20px;
       width: 450px;
       margin: 40px;
+      margin-right: 40px;
   }
 
 .bottom-info {
